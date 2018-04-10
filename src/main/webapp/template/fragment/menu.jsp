@@ -1,3 +1,5 @@
+<%@ page import="edu.mssm.pharm.maayanlab.Harmonizome.util.Constant" %>
+
 <div id="menu" class="navbar-collapse collapse pull-right">
 	<ul class="nav navbar-nav list-inline">
 		<li class="search-item">
@@ -20,6 +22,7 @@
 		<li>
 			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Predict</a>
 			<ul class="dropdown-menu">
+				<li><a href="${Constant.HARMONIZOME_ML_URL}">Harmonizome-ML<sup style="color: #ff5f5f">new</sup></a></li>
 				<li><a href="machine_learning">Intro</a></li>
 				<li><a href="machine_learning/ic_predictions">Ion channels</a></li>
 				<li><a href="machine_learning/mp_predictions">Mouse phenotypes</a></li>

@@ -47,6 +47,8 @@ public class Constant {
 	
 	public static final String ML_URL = "machine_learning";
 
+	public static final String HARMONIZOME_ML_URL = "/Harmonizome-ML/";
+
 	// This has no preceding slash because we typically use it as a relative URL in JSP templates.
 	public static final String SEARCH_URL = "search";
 	

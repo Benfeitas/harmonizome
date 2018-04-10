@@ -29,6 +29,13 @@
 					</li>
 				</ul>
 			</div>
+			<div class="col-xs-offset-2 col-xs-8">
+				<p>
+					<span style="color: #e00000; font-weight: bold">New</span>:
+					Try out <a href="${Constant.HARMONIZOME_ML_URL}">Harmonizome-ML</a>,
+					a tool for imputing knowledge about gene function using Harmonizome datasets.
+				</p>
+			</div>
 		</div>
 	</div>
 </t:wrapper>
