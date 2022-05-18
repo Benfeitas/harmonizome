@@ -49,7 +49,7 @@ def download_datasets(selected_datasets, selected_downloads, decompress=False):
             if response.status_code != 200:
                 continue
 
-            if decompress and 'txt.gz' in filename:
+            if decompress and (('txt.gz' in filename) or ('gmt.gz' in filename)):
                 _download_and_decompress_file(response, filename)
             else:
                 _download_file(response, filename)
